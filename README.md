@@ -38,6 +38,7 @@ Charging a credit card
     }
 
 
-Notes
------
-- The direct response with **|** delimiter is required. Authorize.net web control panel has option to change it to pipe.
+Notes ----- 
+
+- The direct response with **|** delimiter is required. Authorize.net web control panel has option to change delimiter to pipe.
+- either copy paste Authroize.java file, or jar file after `mvn package` or use maven after `mvn install` to use.
