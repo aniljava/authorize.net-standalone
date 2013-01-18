@@ -11,10 +11,10 @@ Usage
 -----
 Charging a credit card
 
-//Map of login settings
-	Map<String, String> settings = Authorize.map(
-				"x_Delim_Data", "TRUE",
-				"x_login", x_login,
-				"x_tran_key", x_tran_key,
-				"x_version","3.1"
-				);
+    //Map of login settings
+    Map<String, String> settings = Authorize.map(
+    			"x_Delim_Data", "TRUE",
+    			"x_login", x_login,
+    			"x_tran_key", x_tran_key,
+    			"x_version","3.1"
+    			);
