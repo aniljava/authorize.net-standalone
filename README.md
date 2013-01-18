@@ -11,7 +11,7 @@ Usage
 -----
 Charging a credit card
 
-    //Map of login settings
+    //Map of login settings, map method is a shorthand to create java Map
     Map<String, String> settings = Authorize.map(
     			"x_Delim_Data", "TRUE",
     			"x_login", x_login, //Get from authorize.net
@@ -36,3 +36,8 @@ Charging a credit card
     if(result.get("Response Code").equals("1")){
     	System.out.println("CHARGED !");
     }
+
+
+Notes
+-----
+- The direct response with **|** delimiter is required. Authorize.net web control panel has option to change it to pipe.

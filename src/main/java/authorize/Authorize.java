@@ -21,7 +21,7 @@ import java.util.Map;
  */
 public class Authorize {
 	
-	public static final String	PRODUCTION_URL	= "https://test.authorize.net/gateway/transact.dll";
+	public static final String	PRODUCTION_URL	= "https://secure.authorize.net/gateway/transact.dll";
 	public static final String	SANDBOX_URL		= "https://test.authorize.net/gateway/transact.dll";
 	
 	
