@@ -38,7 +38,13 @@ Charging a credit card
     }
 
 
-Notes ----- 
+Notes 
+----- 
 
 - The direct response with **|** delimiter is required. Authorize.net web control panel has option to change delimiter to pipe.
 - either copy paste Authroize.java file, or jar file after `mvn package` or use maven after `mvn install` to use.
+
+Resources
+---------
+- [Authorize.Net Advance Integration Method (AIM)](http://developer.authorize.net/api/aim/)
+- [AIM Manual PDF](http://www.authorize.net/support/AIM_guide.pdf)
